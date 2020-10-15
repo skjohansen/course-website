@@ -4,23 +4,11 @@ title: Lectures
 permalink: /lectures/
 ---
 
-<!-- <ul id="archive">
 
+Week|Måndag|Tisdag |Onsdag |Torsdag|Fredag
+-----|-------|-------|------|------|------
+xx|01: 2020-08-31<br />Röda tråd: [Internet och moln](lecture_01_internet_och_moln.md)<br />8:30 - 16:30|        |02: 2020-09-02<br />[Virtuelle maskiner och infrastruktur som kod](lecture_02_iac_och_vm.md)<br />8:30 - 16:30||
 
-{% for gallery in site.data.lectures %}
-  {% if lectures.id == page.galleryid %}
-    <h1>{{ lectures.description }}</h1>
-    {% for image in sortedimages %}
-      <li class="archiveposturl">
-        <span><a href="{{ site.url }}/graphs/{{ image.file }}">{{image.title }}</a></span><br>
-<span class = "postlower">{{ image.caption }}<br />
-<strong>Tags:</strong> {{ image.tags }}</span>
-      </li>
-    {% endfor %}
-  {% endif %}
-{% endfor %}
-
-</ul> -->
 
 This page contains link to the lectures I give throughout the semester. Clicking the title of the week's lecture will go to a PDF, embedded in the user's browser, by default. The bottom right icons link to the Github directory for the lecture (<i class="fab fa-github"></i>), the R Markdown document for the lecture (<i class="fab fa-r-project"></i>), and a PDF, embedded on Github, for the lecture (<i class="fas fa-file-pdf"></i>).
 

@@ -2,10 +2,10 @@
  * Site header
  */
 .site-header {
-    border-top: 0px solid $grey-color-dark;
-	border-bottom: 4px solid $clemson-orange;
+    border-top: 0px solid #4276b6;
+	border-bottom: 4px solid #06507d;
     min-height: 56px;
-    background: $clemson-purple;
+    background: #4276b6;
     // Positioning context for the mobile navigation icon
     position: relative;
 
@@ -13,22 +13,22 @@
 
 .site-title {
     font-size: 26px;
-/* 		margin-top: 15px;
-    line-height: 40px; */
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
     font-weight: 500;
-		font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
     color: #ffffff;
+
     &,
     &:visited {
         color: #ffffff;
     }
+
     &,
     &:hover {
-	text-decoration: none;
-}
+        text-decoration: none;
+    }
 }
 
 .site-header .wrapper {
@@ -53,7 +53,7 @@
 	padding: 0;
 	list-style-type: none;
 	text-transform: uppercase;
-		font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 
 }
 
@@ -81,26 +81,16 @@
 	height: auto;
 	letter-spacing: 0;
 	line-height: 1.2em;
-	padding: 4px 10px;
-color: #522d80;
-
+    padding: 4px 10px;
 }
 
-.site-nav .sub-menu a:hover {
-	color: $clemson-purple;
-}
 .site-nav  .sub-menu {
 	background: #ffffff;
-	border-color: $clemson-purple;
 	min-width: 265px;
-
 	z-index:2147483647;
 }
 .site-nav .sub-menu li.current-menu-item > a {
-	border-left-color: $clemson-purple;
-	border-right-color: $clemson-purple;
 	border-right: 0px;
-
 }
 
 
@@ -119,10 +109,8 @@ color: #522d80;
 	text-transform: none;
 	top: 28px;
 	min-width: 265px;
-
-z-index:999;
+    z-index:999;
 	font-family: Helvetica, Arial, Verdana, sans-serif;
-
 }
 
 .sub-menu li {
@@ -137,8 +125,6 @@ z-index:999;
 .site-nav li:hover > .sub-menu {
 	display: block;
 }
-
-
 
 .site-nav h1 {
 	position: absolute;
@@ -157,7 +143,6 @@ z-index:999;
 
     .page-link {
         color: #ffffff;
-    background: $clemson-purple;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one

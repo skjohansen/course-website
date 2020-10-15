@@ -15,13 +15,13 @@ description: |
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://course-website.svmiller.com" # the base hostname & protocol for your site
 syllabus: "https://github.com/svmiller/svm-r-markdown-templates/blob/master/syllabus-example/svm-rmarkdown-syllabus-example.pdf"
-githubdir: "svmiller/course-website"
+githubdir: "skjohansen/course-website"
 
 # Author/user information
 email: svmille@clemson.edu
-twitter_username: stevenvmiller
-github_username:  svmiller
-authorurl: "http://svmiller.com"
+twitter_username: skjohansen
+github_username:  skjohansen
+authorurl: "http://skjohansen.com"
 address: |
     Department of Political Science
     232 Brackett Hall
