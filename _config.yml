@@ -16,6 +16,10 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://course-website.svmiller.com" # the base hostname & protocol for your site
 syllabus: "https://github.com/svmiller/svm-r-markdown-templates/blob/master/syllabus-example/svm-rmarkdown-syllabus-example.pdf"
 githubdir: "skjohansen/course-website"
+lms-name: Ping Ping
+lms-url: http://pingping.com
+course-start: 2020-09-01
+course-end: 2020-09-14
 
 # Author/user information
 email: svmille@clemson.edu
